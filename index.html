@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Dila</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0a0a0a;
+            color: #d1d1d1;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 15px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .hero p {
+            font-size: 1rem;
+            color: #666;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        /* Section Styles */
+        .section {
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 80px 25px;
+        }
+
+        .content {
+            max-width: 650px;
+            width: 100%;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 1s ease-out;
+        }
+
+        .content.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: #ffffff;
+            margin-bottom: 25px;
+            border-left: 3px solid #444;
+            padding-left: 15px;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+            font-size: 1.05rem;
+            color: #b0b0b0;
+            text-align: justify;
+        }
+
+        .separator {
+            width: 30px;
+            height: 1px;
+            background-color: #333;
+            margin: 40px 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 60px 20px;
+            color: #444;
+            font-size: 0.85rem;
+            border-top: 1px solid #1a1a1a;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; }
+            .content h2 { font-size: 1.5rem; }
+            .content p { font-size: 0.95rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Untuk Fadilah "Umul" Nazuhra</h1>
+        <p>Ada beberapa hal yang sebenernya pengen aku sampein dari lama.</p>
+        <p style="margin-top: 40px; font-size: 0.75rem; letter-spacing: 2px;">SCROLL PELAN-PELAN</p>
+    </header>
+
+    <section class="section">
+        <div class="content fade-element">
+            <h2>HBD ke-21</h2>
+            <p>Dila, sebelumnya aku mau ngucapin selamat ulang tahun yang ke-21 ya buat kamu. Aku tau ini telat banget, bener-bener telat dan maaf banget baru sempet ngucapin sekarang. Tapi ya gitu, aku baru nemu waktu yang pas buat bener-bener nulis ini semua buat kamu.</p>
+            <p>Semoga di umur yang ke-21 ini, semua urusan kamu dimudahin, sehat terus, dan apa yang kamu cita-citain di Solo sana bisa pelan-pelan tercapai.</p>
+            <div class="separator"></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="content fade-element">
+            <h2>Tentang Waktu Itu</h2>
+            <p>Kalau diingat-ingat lagi, cerita kita ini panjang banget ya Dil? Kita udah kenal dari SD, dan bisa dibilang kamu itu cinta pertama aku. Anehnya, setiap tahun pasti selalu ada aja hal istimewa antara aku sama kamu. Apalagi pas bulan Ramadhan. Orang lain mungkin liatnya biasa aja, tapi buat aku, aku selalu nungguin Ramadhan bukan cuma karena bulannya, tapi karena pasti ada kamu di situ. Walaupun ya... kita berdua sering jaim dan sok cuek satu sama lain, haha.</p>
+            <p>Hubungan kita juga unik, dibilang pacaran resmi banget juga nggak, tapi kita sering deket terus jauh lagi. Tapi momen yang paling aku inget itu pas Lebaran 2025. Itu pertama kalinya aku bisa foto bareng sama kamu, dan yang bikin aku seneng banget, malah kamu duluan yang ngajak fotbar. Itu rasanya bener-bener bahagia banget.</p>
+            <p>Terus ada lagi pas kita nggak sengaja ketemu di Jakarta, di depan SMK Penerbangan Jalan Tirtayasa. Yang bener-bener ga ada angin, ga ada hujan kita dipertemukan. Itu jadi kenangan terakhir aku sama kamu. And funfact aku sekarang tiap hari lewat jalan itu, selalu ngeliat itu bangku makin tersiksa aku rasanya. Sampe ngga pernah absen ngeliat itu bangku tiap berangkat sama pulang kerja.</p>
+            <div class="separator"></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="content fade-element">
+            <h2>Maaf</h2>
+            <p>Dil, aku mau minta maaf atas aku yang dari dulu nggak pernah berubah. Aku sadar, setiap kali kita lagi nggak deket, aku selalu punya orang lain. Tiap kita deket lagi pun aku selalu minta maaf soal hal itu, tapi sampe detik ini aku ngerasa masih sama aja. Aku ngerasa bersalah banget, walaupun mungkin di pikiran kamu itu biasa aja, tapi aku ngerasa jadi cowok yang brengsek banget.</p>
+            <p>Ada hal yang nggak bisa aku bahas lagi di sini, intinya soal masa lalu dan keburukan aku sama cewek lain yang akhirnya bikin hubungan kita terakhir hancur. Perbuatan aku yang itu emang nggak bisa dibenerin, dan nggak pantes dimaafin. Aku bener-bener minta maaf soal itu, aku nggak mau bahas dalem-dalem lagi karena takut kamu kepikiran lagi.</p>
+            <p>Aku juga minta maaf kalau pesan ini malah ganggu hidup kamu. Sejujurnya aku nggak mau ganggu lagi, tapi aku ngerasa harus nyampein ini. Maaf juga buat emosional aku yang kadang nggak kontrol. Pokoknya, aku minta maaf sebesar-besarnya atas semua salah aku ke kamu.</p>
+            <div class="separator"></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="content fade-element">
+            <h2>Terima Kasih</h2>
+            <p>Aku makasih banget kamu udah mau dateng ke hidup aku dan nerima aku apa adanya dulu. Makasih juga buat kesabaran kamu yang luar biasa. Jujur, kamu itu orang paling sabar yang pernah aku kenal setelah ibu aku. Kamu pinter banget nutupin rasa kecewa kamu sendiri.</p>
+            <p>Aku bersyukur setiap tahunnya selalu dikasih kesempatan buat bisa ngobrol lagi sama kamu. Dan yang paling aku hargain, makasih banget setelah semua hal yang udah kita laluin, kamu tetep mau berteman sama aku. Makasih banyak ya Dil udah punya hati seluas itu.</p>
+            <div class="separator"></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="content fade-element">
+            <h2>Ke Depannya</h2>
+            <p>Aku pengen banget kamu bisa bahagia. Kalau bisa, aku pengen kamu lupain aku seutuhnya, bahkan sampe nggak kenal aku lagi juga nggak apa-apa. Karena aku tau rasanya nggak bisa ngelupain orang itu tersiksa banget, dan aku nggak mau kamu ngerasain itu. Semoga kamu bisa dapet cowok yang emang kamu impikan, yang bisa bersyukur punya kamu, yang bisa hargain kamu, dan ngetreat kamu bener-bener kayak seorang ratu.</p>
+            <p>Jujur nih, di lubuk hati aku yang paling dalem, sekecil atom pun, aku sebenernya belum bisa ngerelain kamu. Tapi aku harus bisa. Aku tau aku cowok busuk karena nggak pernah bisa lepas dari cinta pertama, bahkan pas aku udah punya cewek sekarang pun aku tetep masih liat ke belakang.</p>
+            <p>Oiya, satu hal lagi. Aku lagi sering banget dengerin Oasis belakangan ini. Terus aku liat di Note kamu, kamu juga sering posting lagu Oasis. Aku jadi pengen nanya, itu kamu emang lagi suka, atau emang lagi ngode gimana? Haha. Intinya semangat terus ya Dil buat semuanya.</p>
+            <p>Satu permintaan terakhir, tolong dong kirimin foto kita yang di depan SMK Penerbangan itu. HP aku hancur dan fotonya ilang semua. Huehehe. Ngomong-ngomong maaf penyusunan katanya ancur banget emang kamu doang paling jago bikin kalimat.</p>
+            
+            <p style="margin-top: 50px; font-style: italic; color: #fff; text-align: left;">Dari guehh,<br>Bani</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>2026 | Apakek</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const elements = document.querySelectorAll('.fade-element');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            elements.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Dila</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0a0a0a;
+            color: #d1d1d1;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 15px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .hero p {
+            font-size: 1rem;
+            color: #666;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        /* Section Styles */
+        .section {
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 80px 25px;
+        }
+
+        .content {
+            max-width: 650px;
+            width: 100%;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 1s ease-out;
+        }
+
+        .content.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: #ffffff;
+            margin-bottom: 25px;
+            border-left: 3px solid #444;
+            padding-left: 15px;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+            font-size: 1.05rem;
+            color: #b0b0b0;
+            text-align: justify;
+        }
+
+        .separator {
+            width: 30px;
+            height: 1px;
+            background-color: #333;
+            margin: 40px 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 60px 20px;
+            color: #444;
+            font-size: 0.85rem;
+            border-top: 1px solid #1a1a1a;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; }
+            .content h2 { font-size: 1.5rem; }
+            .content p { font-size: 0.95rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Untuk Fadilah "Umul" Nazuhra</h1>
+        <p>Ada beberapa hal yang sebenernya pengen aku sampein dari lama.</p>
+        <p style="margin-top: 40px; font-size: 0.75rem; letter-spacing: 2px;">SCROLL PELAN-PELAN</p>
+    </header>
+
+    <section class="section">
+        <div class="content fade-element">
+            <h2>HBD ke-21</h2>
+            <p>Dila, sebelumnya aku mau ngucapin selamat ulang tahun yang ke-21 ya buat kamu. Aku tau ini telat banget, bener-bener telat dan maaf banget baru sempet ngucapin sekarang. Tapi ya gitu, aku baru nemu waktu yang pas buat bener-bener nulis ini semua buat kamu.</p>
+            <p>Semoga di umur yang ke-21 ini, semua urusan kamu dimudahin, sehat terus, dan apa yang kamu cita-citain di Solo sana bisa pelan-pelan tercapai.</p>
+            <div class="separator"></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="content fade-element">
+            <h2>Tentang Waktu Itu</h2>
+            <p>Kalau diingat-ingat lagi, cerita kita ini panjang banget ya Dil? Kita udah kenal dari SD, dan bisa dibilang kamu itu cinta pertama aku. Anehnya, setiap tahun pasti selalu ada aja hal istimewa antara aku sama kamu. Apalagi pas bulan Ramadhan. Orang lain mungkin liatnya biasa aja, tapi buat aku, aku selalu nungguin Ramadhan bukan cuma karena bulannya, tapi karena pasti ada kamu di situ. Walaupun ya... kita berdua sering jaim dan sok cuek satu sama lain, haha.</p>
+            <p>Hubungan kita juga unik, dibilang pacaran resmi banget juga nggak, tapi kita sering deket terus jauh lagi. Tapi momen yang paling aku inget itu pas Lebaran 2025. Itu pertama kalinya aku bisa foto bareng sama kamu, dan yang bikin aku seneng banget, malah kamu duluan yang ngajak fotbar. Itu rasanya bener-bener bahagia banget.</p>
+            <p>Terus ada lagi pas kita nggak sengaja ketemu di Jakarta, di depan SMK Penerbangan Jalan Tirtayasa. Yang bener-bener ga ada angin, ga ada hujan kita dipertemukan. Itu jadi kenangan terakhir aku sama kamu. And funfact aku sekarang tiap hari lewat jalan itu, selalu ngeliat itu bangku makin tersiksa aku rasanya. Sampe ngga pernah absen ngeliat itu bangku tiap berangkat sama pulang kerja.</p>
+            <div class="separator"></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="content fade-element">
+            <h2>Maaf</h2>
+            <p>Dil, aku mau minta maaf atas aku yang dari dulu nggak pernah berubah. Aku sadar, setiap kali kita lagi nggak deket, aku selalu punya orang lain. Tiap kita deket lagi pun aku selalu minta maaf soal hal itu, tapi sampe detik ini aku ngerasa masih sama aja. Aku ngerasa bersalah banget, walaupun mungkin di pikiran kamu itu biasa aja, tapi aku ngerasa jadi cowok yang brengsek banget.</p>
+            <p>Ada hal yang nggak bisa aku bahas lagi di sini, intinya soal masa lalu dan keburukan aku sama cewek lain yang akhirnya bikin hubungan kita terakhir hancur. Perbuatan aku yang itu emang nggak bisa dibenerin, dan nggak pantes dimaafin. Aku bener-bener minta maaf soal itu, aku nggak mau bahas dalem-dalem lagi karena takut kamu kepikiran lagi.</p>
+            <p>Aku juga minta maaf kalau pesan ini malah ganggu hidup kamu. Sejujurnya aku nggak mau ganggu lagi, tapi aku ngerasa harus nyampein ini. Maaf juga buat emosional aku yang kadang nggak kontrol. Pokoknya, aku minta maaf sebesar-besarnya atas semua salah aku ke kamu.</p>
+            <div class="separator"></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="content fade-element">
+            <h2>Terima Kasih</h2>
+            <p>Aku makasih banget kamu udah mau dateng ke hidup aku dan nerima aku apa adanya dulu. Makasih juga buat kesabaran kamu yang luar biasa. Jujur, kamu itu orang paling sabar yang pernah aku kenal setelah ibu aku. Kamu pinter banget nutupin rasa kecewa kamu sendiri.</p>
+            <p>Aku bersyukur setiap tahunnya selalu dikasih kesempatan buat bisa ngobrol lagi sama kamu. Dan yang paling aku hargain, makasih banget setelah semua hal yang udah kita laluin, kamu tetep mau berteman sama aku. Makasih banyak ya Dil udah punya hati seluas itu.</p>
+            <div class="separator"></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="content fade-element">
+            <h2>Ke Depannya</h2>
+            <p>Aku pengen banget kamu bisa bahagia. Kalau bisa, aku pengen kamu lupain aku seutuhnya, bahkan sampe nggak kenal aku lagi juga nggak apa-apa. Karena aku tau rasanya nggak bisa ngelupain orang itu tersiksa banget, dan aku nggak mau kamu ngerasain itu. Semoga kamu bisa dapet cowok yang emang kamu impikan, yang bisa bersyukur punya kamu, yang bisa hargain kamu, dan ngetreat kamu bener-bener kayak seorang ratu.</p>
+            <p>Jujur nih, di lubuk hati aku yang paling dalem, sekecil atom pun, aku sebenernya belum bisa ngerelain kamu. Tapi aku harus bisa. Aku tau aku cowok busuk karena nggak pernah bisa lepas dari cinta pertama, bahkan pas aku udah punya cewek sekarang pun aku tetep masih liat ke belakang.</p>
+            <p>Oiya, satu hal lagi. Aku lagi sering banget dengerin Oasis belakangan ini. Terus aku liat di Note kamu, kamu juga sering posting lagu Oasis. Aku jadi pengen nanya, itu kamu emang lagi suka, atau emang lagi ngode gimana? Haha. Intinya semangat terus ya Dil buat semuanya.</p>
+            <p>Satu permintaan terakhir, tolong dong kirimin foto kita yang di depan SMK Penerbangan itu. HP aku hancur dan fotonya ilang semua. Huehehe. Ngomong-ngomong maaf penyusunan katanya ancur banget emang kamu doang paling jago bikin kalimat.</p>
+            
+            <p style="margin-top: 50px; font-style: italic; color: #fff; text-align: left;">Dari guehh,<br>Bani</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>2026 | Apakek</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const elements = document.querySelectorAll('.fade-element');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            elements.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+
+</body>
+</html>
